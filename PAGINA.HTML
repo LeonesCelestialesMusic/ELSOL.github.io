@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELSOL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #c6c6c6;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Anton', sans-serif;
+        }
+
+        h1 {
+            font-size: 80px;
+            color: black;
+            margin: 0;
+        }
+
+        .sol {
+            font-size: 40px;
+            color: black;
+            margin: 10px 0;
+        }
+
+        .parpadeo {
+            color: black;
+            font-size: 20px;
+            animation: parpadeo 1s infinite;
+            cursor: pointer;
+        }
+
+        @keyframes parpadeo {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>ELSOL</h1>
+    <div class="sol">☼</div>
+    <div class="parpadeo" onclick="window.location.href='https://soundcloud.com/joseph-33850388/sets/elsol-instrumentales?si=b8b98330c4c844a7a63dd98468adc463&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'">
+        INSTRUMENTALES DISPONIBLES
+    </div>
+</body>
+</html>
